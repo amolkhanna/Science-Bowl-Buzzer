@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1023px) {
+    .Button {
+        font-size: 75px;
+    }
+    #JoinButton {
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    #CreateButton {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .Button {
+        font-size: 80px;
+    }
+    #JoinButton {
+        top: 20%;
+        left: 5%;
+        width: 42.5%;
+        height: 60%;
+    }
+    #CreateButton {
+        top: 20%;
+        left: 10%;
+        width: 42.5%;
+        height: 60%;
+    }
+}

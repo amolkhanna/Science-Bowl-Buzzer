@@ -1,0 +1,38 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    font-weight: 400;
+}
+
+.ScreenNotSupported {
+    display: none;
+}
+
+.Container {
+    height: 100%;
+    width: 100%;
+}
+
+.Button {
+    border: 1px solid black;
+    background-color: red;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.Button:hover {
+    background-color: #de4f4f;
+}

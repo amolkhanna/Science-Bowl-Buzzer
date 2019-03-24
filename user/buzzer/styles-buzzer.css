@@ -1,0 +1,23 @@
+@media only screen and (max-width: 767px) {
+    .Button {
+        font-size: 80px;
+    }
+    #BuzzButton {
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Button {
+        font-size: 80px;
+    }
+    #BuzzButton {
+        top: 20%;
+        left: 10%;
+        height: 60%;
+        width: 80%;
+    }
+}
