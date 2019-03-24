@@ -17,3 +17,5 @@ if (mysqli_fetch_array(mysqli_query($connection, $sqlRoom))[0] != null) {
     unset($_SESSION["user"]);
     unset($_SESSION["code"]);
 }
+
+?>
